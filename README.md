@@ -14,6 +14,8 @@ Java 21, Spring Boot 3.3, Spring Data JPA/Hibernate, SQLite (local), Spring Secu
 Jakarta Validation, Maven, JUnit 5 + Spring Boot Test + MockMvc. No external services required:
 the default AI provider is a **deterministic offline mock**; an OpenAI-compatible adapter (Groq, Ollama, ...) is optional.
 
+Live LLM model used for OpenAI-compatible calls: `openai/gpt-4o-mini`.
+
 ## Quick start
 
 Prerequisites: JDK 21, Maven 3.9+.

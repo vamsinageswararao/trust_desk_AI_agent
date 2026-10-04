@@ -1,0 +1,8 @@
+trustdesk_seed.db
+*.sqlite
+*.sqlite3
+__pycache__/
+.DS_Store
+target/
+*.db
+.env
